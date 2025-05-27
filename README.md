@@ -1,5 +1,7 @@
 # __Progetto-Metodologie-Di-Programmazione__ 
 
+
+
 ## DESCRIZIONE FUNZIONALITÀ DEL SISTEMA IMPLEMENTATO 📚
 
 Il progetto modella una libreria digitale, ossia un sistema software ad uso personale per la 
@@ -22,10 +24,10 @@ l'invio tramite mail.
 
 ## ELENCO PATTERN 📋
 
-▪ Composite 
-▪ Visitor 
-▪ Adapter 
-▪ Template Method 
+- Composite 
+- Visitor 
+- Adapter 
+- Template Method 
 
 ## DESCRIZIONE SCELTE DI DESIGN ⬇️
 
