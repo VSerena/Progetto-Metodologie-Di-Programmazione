@@ -1,8 +1,12 @@
 # __Progetto-Metodologie-Di-Programmazione__ 
 
+- [Descrizione](#DESCRIZIONE FUNZIONALITÀ DEL SISTEMA IMPLEMENTATO)
+- [Patterns](#ELENCO PATTERN)
+- [Scelte di Design](#DESCRIZIONE SCELTE DI DESIGN)
 
+---
 
-## DESCRIZIONE FUNZIONALITÀ DEL SISTEMA IMPLEMENTATO 📚
+## 1️⃣ DESCRIZIONE FUNZIONALITÀ DEL SISTEMA IMPLEMENTATO 📚
 
 Il progetto modella una libreria digitale, ossia un sistema software ad uso personale per la 
 gestione di libri digitali. Il sistema supporta il calcolo della dimensione in MB dei suoi 
@@ -22,14 +26,18 @@ In aggiunta, è stata implementata una funzionalità di condivisione degli eleme
 libreria digitale via email, resa possibile attraverso l’adattamento di un modulo esistente per 
 l'invio tramite mail.  
 
-## ELENCO PATTERN 📋
+---
 
-- Composite 
-- Visitor 
-- Adapter 
-- Template Method 
+## 2️⃣ ELENCO PATTERN 📋
 
-## DESCRIZIONE SCELTE DI DESIGN ⬇️
+- *Composite* 
+- *Visitor* 
+- *Adapter* 
+- *Template Method*
+
+---
+
+## 3️⃣ DESCRIZIONE SCELTE DI DESIGN ⬇️
 
 Il progetto rappresenta una libreria digitale sviluppata utilizzando diversi design pattern per 
 garantire una buona organizzazione, pulizia, manutenibilità del codice e una maggiore 
@@ -43,19 +51,19 @@ dominio applicativo.
 
 Il progetto risulta essere strutturato in più moduli: 
 
-- library.model: contiene le entità del dominio e le loro relazioni. In altre parole, 
+- *library.model*: contiene le entità del dominio e le loro relazioni. In altre parole, 
 descrivere il modello concettuale della libreria. Include le classi Ebook, LibrarySection e 
 la loro classe astratta base come prescritto dal pattern strutturale scelto.
 
-- library.service: contiene solo l’interfaccia LibraryVisitor e rappresenta il punto di 
+- *library.service*: contiene solo l’interfaccia LibraryVisitor e rappresenta il punto di 
 estensione astratto per l’applicazione del pattern Visitor alla struttura della libreria 
 digitale, permettendo le implementazioni di servizi applicativi eterogenei.
 
-- library.service.exporting: contiene la logica di esportazione dati in formati specifici 
+- *library.service.exporting*: contiene la logica di esportazione dati in formati specifici 
 (come JSON e XML), implementata tramite il pattern Visitor e Template Method. È ben 
 separato dalla logica core del software, favorendo modularità ed estendibilità.
 
-- library.service.sharing.adapter: contiene la logica responsabile dell’adattamento di un 
+- *library.service.sharing.adapter*: contiene la logica responsabile dell’adattamento di un 
 servizio preesistente di invio mail all’interfaccia richiesta al sistema.
 
 Per rappresentare la struttura gerarchica degli elementi è stato utilizzato il pattern strutturale 
