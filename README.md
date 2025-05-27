@@ -1,4 +1,4 @@
-# __Progetto-Metodologie-Di-Programmazione__ 
+# __Progetto Metodologie Di Programmazione__ 
 
 - [Descrizione](#DESCRIZIONE-FUNZIONALITÀ-DEL-SISTEMA-IMPLEMENTATO)
 - [Patterns](#ELENCO-PATTERN)
