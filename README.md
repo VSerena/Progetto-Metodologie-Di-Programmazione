@@ -1,8 +1,8 @@
 # __Progetto Metodologie Di Programmazione__ 
 
 - [Descrizione](#1%EF%B8%8F%E2%83%A3-descrizione-funzionalit%C3%A0-del-sistema-implementato-)
-- [Patterns](#ELENCO-PATTERN)
-- [Scelte di Design](#DESCRIZIONE-SCELTE-DI-DESIGN)
+- [Patterns](#2%EF%B8%8F%E2%83%A3-elenco-pattern-)
+- [Scelte di Design](#3%EF%B8%8F%E2%83%A3-descrizione-scelte-di-design)
 
 ---
 
